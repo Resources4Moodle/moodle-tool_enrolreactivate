@@ -32,6 +32,7 @@ require_once($CFG->libdir . '/enrollib.php');
  * @package    tool_enrolreactivate
  * @copyright  2026 jsp <plugins@resources4moodle.icu>
  * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @covers     \tool_enrolreactivate\local\manager
  */
 final class manager_test extends advanced_testcase {
     /**
