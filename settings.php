@@ -81,7 +81,7 @@ if ($hassiteconfig) {
             get_string('notifysubjectsetting', 'tool_enrolreactivate'),
             get_string('notifysubjectsetting_desc', 'tool_enrolreactivate'),
             get_string('notifysubjectdefault', 'tool_enrolreactivate'),
-            PARAM_TEXT,
+            PARAM_RAW,
         ));
         $settings->add(new admin_setting_configtextarea(
             'tool_enrolreactivate/notifytemplate',
