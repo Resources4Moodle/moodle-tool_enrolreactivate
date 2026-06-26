@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Extend Enrollment for Editing Teachers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f73b8"/>
+      <stop offset="1" stop-color="#1b4a82"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+
+  <!-- Graduation cap (teacher) -->
+  <g>
+    <path d="M118 56 L198 96 L118 136 L38 96 Z" fill="#ffffff"/>
+    <path d="M82 116 L82 152 Q118 178 154 152 L154 116 L118 135 Z" fill="#ffffff"/>
+    <circle cx="118" cy="96" r="6" fill="#f4a72b"/>
+    <path d="M198 96 L198 152" fill="none" stroke="#f4a72b" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="198" cy="158" r="7" fill="#f4a72b"/>
+  </g>
+
+  <!-- Renew / extend badge (bottom-right) -->
+  <circle cx="190" cy="190" r="46" fill="#1b4a82"/>
+  <circle cx="190" cy="190" r="40" fill="#f4a72b"/>
+  <g transform="translate(165,165) scale(2.08)" fill="#ffffff">
+    <path d="M17.65 6.35A7.96 7.96 0 0 0 12 4a8 8 0 1 0 7.74 10h-2.08A6 6 0 1 1 12 6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"/>
+  </g>
+</svg>

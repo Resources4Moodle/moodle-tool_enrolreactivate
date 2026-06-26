@@ -1,0 +1,19 @@
+# Moodle / plugin-CI build artefacts
+/moodle/
+/moodledata/
+/node_modules/
+/vendor/
+.moodle-plugin-ci.yml
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Never commit credentials/secrets
+.secrets/
+git-credentials
+*.pat
+*token*
